@@ -1,0 +1,159 @@
+/* Begin Global Tags */
+
+HTML, BODY {
+   margin: 0px;
+   padding: 0px;
+   background: #000000;
+}
+
+HTML { /* Solve scrollbar jumping problem in FireFox */
+   overflow: -moz-scrollbars-vertical;
+}
+
+BODY { 
+   min-width: 700px;
+   color: #FFFFFF;
+   font-family: Tahoma,Arial,sans-serif;
+   line-height: 120%;
+   font-size: 10pt;
+   text-align: center;
+}
+
+IMG {
+   border: 0px none #000;
+}
+
+A IMG {
+   text-decoration:none;
+}
+/* End Global Tags */
+
+/* Begin Default Links */
+a:link {color: #FFFFFF;}
+a:visited {color: #FFFFFF;}
+a:hover {color: #999999;}
+a:active {color: #999999; text-decoration: none;}
+/* End Default Links
+
+/* Wrapper */
+#wrap {
+   position: relative;
+   margin:0px auto;
+   width:700px;
+}
+
+/* Begin Header Section */
+#header {
+   width: 700px;
+   height: 283px;
+}
+#banner {
+   float: right;
+   width: 525px;
+   height: 279px;
+}
+#links {
+   position: absolute;
+   top: 84px;
+   right: 535px;
+   text-align: right;
+   line-height: 140%;
+}
+#logo {
+   position: absolute;
+   top: 167px;
+   left: -4px;
+   width: 240px;
+   height: 109px;
+}
+/* End Header Section */
+
+/* Begin Content Section */
+#red_box {
+   position: relative;
+   background-color: #B40124;
+   width: 696px;
+   padding: 4px 0px 0px 4px;
+   text-align: left;
+}
+#text_box {
+   width: 445px;
+   min-height: 385px;
+   height:auto !important;    /* The IE Hack... */
+   height:385px;
+   padding: 8px 14px 8px 14px;
+   background-color: #FFFFFF;
+   background-image: url(../images/divider.gif);
+   background-repeat: repeat-y;
+   background-position: top right;
+   text-align: left;
+}
+#corner {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+}
+#top_back {
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   width: 242px;
+   height: 193px; 
+}
+#bottom_back {
+   position: absolute;
+   bottom: 0px !important;    /* Clean this up later */
+   bottom: -1px;
+   right: 0px;
+   width: 242px;
+   height: 49px;
+}
+
+#text_box .title {
+   color: #000000;
+   font-size: 16pt;
+}
+
+#text_box .text {
+   color: #666666;
+}
+
+.text .myth {
+   color: #B40124;
+}
+
+.text img {
+   border: 1px solid #000;
+}
+
+.text a:link {color: #B40124;}
+.text a:visited {color: #999999;}
+.text a:hover {color: #999999;}
+.text a:active {color: #999999; text-decoration: none;}
+
+#text_box img {
+   float: right;
+   margin: 0px 6px 6px 6px;
+}
+
+#sidebar {
+   position: absolute;
+   top: 155px;
+   left: 515px;
+   font-size: 8pt;
+   text-align: center;  
+}
+
+#sidebar a:hover {color: #999999;}
+#sidebar a:active {color: #999999; text-decoration: none;}
+
+#footer {
+   width: 700px;
+   height: 40px;
+   color: #000000;
+   text-align: center;
+   color: #B40124;
+   font-size: 8pt;
+   padding: 6px 0px 0px 0px;
+}
+/* End Content Section */
